@@ -1,23 +1,33 @@
 # Human land-use and land-cover maps based on pollen observations, Anthropogenic land-cover changes and archaeological finds for Europe
 ### The usage of the land-cover maps is free, however attribution to the publication is required.
 
-The `.csv` files in Land-cover Maps folder
-1. Human-land-use_land-cover-maps_1900CE,
-2. Human-land-use_land-cover-maps_1725CE,
-3. Human-land-use_land-cover-maps_1425CE,
-4. Human-land-use_land-cover-maps_1000BCE,
-5. Human-land-use_land-cover-maps_4000BCE,
+The `.csv` files in Human land-use and Land cover Maps folder
+1. Human-land-use_land-cover-maps_all_1900CE,
+2. Human-land-use_land-cover-maps_elevation_1900CE,
+3. Human-land-use_land-cover-maps_all_1725CE,
+4. Human-land-use_land-cover-maps_elevation_1725CE,
+5. Human-land-use_land-cover-maps_all_1425CE,
+6. Human-land-use_land-cover-maps_elevation_1425CE,
+7. Human-land-use_land-cover-maps_all_1000BCE,
+8. Human-land-use_land-cover-maps_elevation_1000BCE,
+9. Human-land-use_land-cover-maps_all_4000BCE,
+10. Human-land-use_land-cover-maps_elevation_4000BCE,
 
 based on the results in Pirzamanbein et al. (2019). (https://arxiv.org/abs/1910.10993)
 
 The columns represent
-
 * Lon: longitude
 * Lat: latitude
-* C: coniferous forest
-* B: Broadleaved forest
-* U: Unforested land
-* H: Human land-use
+Land Cover Changes (LCC)
+* LCC_*_C: Coniferous forest
+* LCC_*_B: Broadleaved forest
+* LCC_*_U: Unforested land
+Natural Land Cover (NLC)
+* NLC_*_C: Coniferous forest
+* NLC_*_B: Broadleaved forest
+* NLC_*_O: open land
+Human Land Use (HLU)
+* HLU: Human land-use
 
 These results obtained by running the Demo.m function in the src folder in MATLAB.
 Demo.m sets the structures, dependency and the names. It calls Main.m function to run the MCMC sampling. The results of the Main.m functions are based on the papers mentioned above. However, some of the functions can be used in general cases, dealing with Gaussian Markov Random fields, Compositional Data, Dirichlet and Beta distribution.
