@@ -2,11 +2,11 @@
 ### The usage of the land-cover maps is free, however attribution to the publication is required.
 
 The `.csv` files in Land-cover Maps folder
-1. land-cover-maps_1900CE,
-2. land-cover-maps_1725CE,
-3. land-cover-maps_1425CE,
-4. land-cover-maps_1000BCE,
-5. land-cover-maps_4000BCE,
+1. Human-land-use_land-cover-maps_1900CE,
+2. Human-land-use_land-cover-maps_1725CE,
+3. Human-land-use_land-cover-maps_1425CE,
+4. Human-land-use_land-cover-maps_1000BCE,
+5. Human-land-use_land-cover-maps_4000BCE,
 
 based on the results in Pirzamanbein et al. (2019). (https://arxiv.org/abs/1910.10993)
 
@@ -29,8 +29,8 @@ Demo.m sets the structures, dependency and the names. It calls Main.m function t
 
 ### Licenses
 #### Code
-MATLAB code for modelling spatial compositional data, specifically for reconstructions of past land cover and uncertainties.
-Copyright (C) 2018  Pirzamanbein Pirzamanbein
+MATLAB code for combing the spatial compositional data with proportional data, specifically for reconstructions of past land cover and human land use.
+Copyright (C) 2020  Pirzamanbein Pirzamanbein
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
