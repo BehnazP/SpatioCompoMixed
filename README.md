@@ -1,4 +1,4 @@
-# Human land-use and land-cover maps based on pollen observations, Anthropogenic land-cover changes and archaeological finds for Europe
+## Human land-use and land-cover maps based on pollen observations and Anthropogenic land-cover changes for Europe
 ### The usage of the land-cover maps is free, however attribution to the publication is required.
 
 The `.csv` files in Human land-use and Land cover Maps folder
