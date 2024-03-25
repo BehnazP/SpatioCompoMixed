@@ -13,7 +13,7 @@ The `.csv` files in Human land-use and Land cover Maps folder
 9. Human-land-use_land-cover-maps_all_4000BCE,
 10. Human-land-use_land-cover-maps_elevation_4000BCE,
 
-based on the results in Pirzamanbein et al. (2019). (https://arxiv.org/abs/1910.10993)
+based on the results in Pirzamanbein and Lindström (2022) (https://doi.org/10.1002/env.2743).
 
 The columns represent
 * Lon: longitude
@@ -33,9 +33,10 @@ These results obtained by running the Demo.m function in the src folder in MATLA
 Demo.m sets the structures, dependency and the names. It calls Main.m function to run the MCMC sampling. The results of the Main.m functions are based on the papers mentioned above. However, some of the functions can be used in general cases, dealing with Gaussian Markov Random fields, Compositional Data, Dirichlet and Beta distribution.
 
 ### Reference:
-* Pirzamanbein, Behnaz, Johan Lindström, Anneli Poska, and Marie-José Gaillard. "Modelling Spatial Compositional Data: Reconstructions of past land cover and uncertainties." Spatial statistics 24 (2018): 14-31. (https://doi.org/10.1016/j.spasta.2018.03.005)
+* Pirzamanbein, Behnaz and Johan Lindström. "Reconstruction of past human land use from pollen data and anthropogenic land cover changes." Environmetrics 33, no. 6 (2022): e2743. (https://doi.org/10.1002/env.2743)
 * Pirzamanbein, Behnaz, Anneli Poska, and Johan Lindström. "Bayesian Reconstruction of Past Land Cover From Pollen Data: Model Robustness and Sensitivity to Auxiliary Variables." Earth and Space Science 7, no. 1 (2020): e2018EA00057. (https://doi.org/10.1029/2018EA000547)
 * Pirzamanbein, Behnaz, and Johan Lindström. "Reconstruction of Past Human land-use from Pollen Data and Anthropogenic land-cover Changes Scenarios." arXiv preprint arXiv:1910.10993 (2019). (https://arxiv.org/abs/1910.10993)
+* Pirzamanbein, Behnaz, Johan Lindström, Anneli Poska, and Marie-José Gaillard. "Modelling Spatial Compositional Data: Reconstructions of past land cover and uncertainties." Spatial statistics 24 (2018): 14-31. (https://doi.org/10.1016/j.spasta.2018.03.005)
 
 ### Licenses
 #### Code
